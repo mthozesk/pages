@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<style type="text/css">
+			.fieldset-auto-width {
+				 display: inline-block;
+			}
+		</style>
+		<form oninput="x.value=parseInt(a.value)+parseInt(b.value)+parseInt(c.value)+parseInt(d.value)+parseInt(e.value)+parseInt(f.value)+parseInt(g.value)+parseInt(h.value)+parseInt(i.value);y.value=parseInt(j.value)+parseInt(k.value)+parseInt(l.value)+parseInt(m.value)+parseInt(n.value)+parseInt(o.value)+parseInt(p.value)+parseInt(q.value)+parseInt(r.value)">
+		 <fieldset class="fieldset-auto-width">
+			 <table border="1">
+				  <legend>Baseball Scoreboard</legend>
+				  <tr><td>Team</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>TOTAL</td></tr>
+				  <tr><td>Team One</td>
+					  <td><input type="number" style="width: 3em" id="a" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="b" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="c" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="d" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="e" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="f" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="g" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="h" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="i" min="0" max="10" value="0"></td>
+					  <td>=<output name="x" for="a b c d e f g h i"/></td>
+				  </tr>
+				  <tr><td>Team Two</td>
+					  <td><input type="number" style="width: 3em" id="j" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="k" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="l" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="m" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="n" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="o" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="p" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="q" min="0" max="10" value="0"></td>
+					  <td><input type="number" style="width: 3em" id="r" min="0" max="10" value="0"></td>
+					  <td>=<output name="y" for="j k l m n o p q r"/></td>
+				  </tr>
+			 </table>
+		 </fieldset>
+		</form>
+	</body>
+</html>
